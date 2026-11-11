@@ -16,9 +16,31 @@ body {
     font-weight: 600;
     font-style: bold;
 }
+.header .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.header .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.3);
+}
+.header .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
 .navbar-brand img{
   max-width: 99px;
   width: 100%;
+}
+
+@media (min-width: 992px) {
+    .header .navbar {
+        position: relative;
+    }
+    .header .navbar-nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
 }
 
 .anoncement-bar {
