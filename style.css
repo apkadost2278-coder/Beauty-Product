@@ -1,0 +1,1031 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.header {
+    width: 100%;
+    background: linear-gradient(113.96deg, #7B3A4E 13.54%, #EE135A 100%);
+    overflow: hidden;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+}
+.navbar-brand img{
+  max-width: 99px;
+  width: 100%;
+}
+
+.anoncement-bar {
+    width: 100%;
+    border-top: 1px solid #bebcbc;
+    border-bottom: 1px solid #bebcbc;
+    color: #fff;
+}
+.anoncement-bar a {
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-section {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+.hero-data {
+    max-width: 539px;
+    width: 100%;
+    color: #fff;
+    z-index: 3;
+}
+.hero-data-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.hero-data-text .text  {
+    font-size: 20px;
+}
+.mobile-data-text {
+    color: #fff;
+}
+.mobile-hero-data-heading h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+.mobile-text {
+    font-weight: 600;
+}
+.points p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    color: #EE135A;
+}
+.review-data {
+    max-width: 380px;
+}
+.hero-data-icons {
+    max-width: 380px;
+}
+.order-box {
+    max-width: 520px;
+    width: 100%;
+    height: max-content;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 0px 30px 0px #00000033;
+    z-index: 2;
+}
+.hero-image {
+    right: 9%;
+    bottom: 12%;
+    z-index: 1;
+}
+.order-logo {
+    max-width: 120px;
+    width: 100%;
+    height: 120px;
+    border-radius: 50%;
+    background: #F6AF45;
+    text-align: center;
+    left: -12%;
+    top: -3%;
+    transform: rotate(-16deg);
+    font-size: 20px;
+    color: #000;
+    font-weight: 800;
+}
+.order-box-top {
+    max-width: 520px;
+    width: 100%;
+    color: #fff;
+    background: #6C2B3F;
+    font-family: "Nunito", sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.order-box-top h1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.order-box-top span {
+    font-size: 36px;
+    font-weight: 900;
+}
+.order-box-inputs {
+    max-width: 480px;
+    width: 100%;
+}
+.order-box-inputs input {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #E6E6E6;
+    margin-bottom: 10px;
+    padding: 16px 10px;
+}
+.name-input,
+.city-input,
+.Country-input,
+.Phone-input {
+    width: 100%;
+}
+.order-button {
+    max-width: 450px;
+    width: 100%;
+    background: linear-gradient(180deg, #F7AF45 0%, #F29D1C 100%);
+    border-radius: 100px;
+    text-align: center;
+    padding: 12px;
+}
+.order-button button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.steps-heading {
+    max-width: 670px;
+}
+.steps-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    background: linear-gradient(90deg, #7B3A4E 0%, #EE135A 100%);
+    background-clip: text;
+    color: transparent;
+}
+.steps-heading p {
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.steps {
+    max-width: 1240px;
+}
+.step {
+    max-width: 400px;
+    min-height: 200px;
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+.step h6 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    color: #333333;
+}
+.step p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#444444;
+}
+.step-logo {
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(140.03deg, #7B3A4E 13.43%, #EE135A 88.23%);
+    border-radius: 50%;
+    top: -30%;
+    left: 7%;
+}
+.step-no {
+    font-size: 200px;
+    top: -74%;
+    right: 7%;
+    color: #EBEBEB;
+    font-family: "Nunito", sans-serif;
+}
+
+.slider {
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.slider .slick-list {
+    margin: 0 -10px;
+}
+.slider .slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+    
+.slider .slide img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.before-btn {
+    bottom: 5%;
+    left: 2%;
+}
+.before-btn button{
+    max-width: 120px;
+    min-height: 40px;
+    text-align: center;
+    background-color: #333333;
+    border: none;
+    padding:10px 25px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+.after-btn {
+    bottom: 5%;
+    right: 2%;
+}
+.after-btn button{
+    max-width: 120px;
+    min-height: 40px;
+    text-align: center;
+    background-color: #EE135A;
+    border: none;
+    padding:10px 25px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.chart-section {
+    width: 100%;
+    background: #F8F8F8;
+}
+.chart-heading {
+    max-width: 700px;
+    text-align: center;
+}
+.chart-para {
+    max-width: 750px;
+    text-align: center;
+}
+.chart-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    background: linear-gradient(90deg, #7B3A4E 0%, #EE135A 100%);
+    background-clip: text;
+    color: transparent;
+}
+.chart-heading p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.chart {
+    max-width: 970px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 15px;
+}
+.chart-para p{
+  color: #444444;
+}
+.chart-btn button {
+    width: 100%;
+    padding: 15px 60px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #F7AF45 0%, #F29D1C 100%);
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.benifit-section {
+    width: 100%;
+    min-height: 1000px;
+    background: linear-gradient(113.96deg, #7B3A4E 13.54%, #EE135A 100%);
+    z-index: 3;
+}
+.benifit-heading {
+    max-width: 600px;
+}
+.benifit-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.benifit-heading p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.benifit-section-img {
+    bottom: 0;
+    left: 9%;
+    z-index: 1;
+}
+.benifits {
+    max-width: 1264px;
+    min-height: 390px;
+    z-index: 2;
+}
+.benifit-1 {
+    max-width: 610px;
+    top: 3%;
+}
+.benifit-2 {
+    max-width: 670px;
+    bottom: 16%;
+}
+.benifit-3 {
+    max-width: 440px;
+    right: 0;
+    top: -19%;
+}
+.benifit-4 {
+    max-width: 440px;
+    right: 0;
+    bottom: 38%;
+}
+.be-box {
+    max-width: 360px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 15px;
+}
+.be-box h3{
+  font-size: 18px;
+  color: #EE135A;
+}
+.product-data {
+    max-width: 480px;
+}
+.product-data div h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    background: linear-gradient(90deg, #7B3A4E 0%, #EE135A 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+.product-data .pro-heading p {
+    font-weight: 600;
+    font-size: 20px;
+}
+.product-img-2 {
+    bottom: 1%;
+    left: -36%;
+}
+.product-btn {
+    text-align: center;
+}
+.product-btn button {
+    width: 100%;
+    padding: 15px 60px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #F7AF45 0%, #F29D1C 100%);
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+.product-btn p {
+    font-size: 12px;
+}
+.what-section {
+    background: #F8F8F8;
+}
+.what-iamges {
+    max-width: 560px;
+}
+.image-center-logo {
+    width: 150px;
+    height: 150px;
+    background: #EE135A;
+    border-radius: 50%;
+    left: 38%;
+    top: 38%;
+}
+.what-data {
+    max-width: 570px;
+}
+.what-data-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    background: linear-gradient(90deg, #7B3A4E 0%, #EE135A 100%);
+    background-clip: text;
+    color: transparent;
+}
+.what-data-heading p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+}
+.what-data-para p{
+    color: #444444;
+}
+.healthy-skin {
+    width: 100%;
+}
+.healthy-skin-img {
+    width: 100%;
+}
+.skin-data {
+    max-width: 570px;
+}
+.skin-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    background: linear-gradient(90deg, #7B3A4E 0%, #EE135A 100%);
+    background-clip: text;
+    color: transparent;
+}
+.skin-heading p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.skin-discription p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.skin-tip img {
+    margin-left: 20px;
+}
+.skin-btn button {
+    border: none;
+    background: linear-gradient(180deg, #F7AF45 0%, #F29D1C 100%);
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+    .review-section {
+      width: 100%;
+      background: linear-gradient(113.96deg, #7B3A4E 13.54%, #EE135A 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .review-section .review-section-heading h1 {
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+    }
+    .review-section .review-section-heading p {
+        color: #fff;
+    }
+    .reviews-wrapper {
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .rev-arrow,
+    .slider-next-arrow,
+    .slider-prev-arrow {
+      flex-shrink: 0;
+      width: 42px;
+      height: 42px;
+      background: #000;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+    .anoncement-arrow {
+        max-width: 40px;
+        background: none;
+        border: none;
+        font-size: 18px;
+        position: absolute;
+    }
+    .anoncement-arrow i {
+        color: white;
+    }
+    .prev {
+        left: 13%;
+        top: 9%;
+        z-index: 2;
+    }
+    .next {
+        right: 13%;
+        top: 9%;
+        z-index: 2;
+    }
+    .rev-arrow i,
+    .slider-prev-arrow i,
+    .slider-next-arrow i { 
+      color: #fff;
+      font-size: 18px; 
+    }
+    .slider-prev-arrow {
+        left: 1%;
+        top: 40%;
+    }
+    .slider-next-arrow {
+        right: 1%;
+        bottom: 47%;
+    }
+
+    .reviews-slider-wrap { 
+      flex: 1; 
+      min-width: 0; 
+    }
+    .review-slide { 
+      padding: 40px 10px 20px; 
+    }
+
+    .review-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 16px;
+      padding: 28px 20px 24px;
+      text-align: center;
+      position: relative;
+    }
+
+    .review-avatar {
+      position: absolute;
+      top: -36px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .review-avatar img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .review-stars { 
+      margin-bottom: 10px; 
+    }
+    .review-stars i { 
+      color: #F6AF45; 
+      font-size: 14px; 
+    }
+
+    .review-name {
+      font-weight: 600;
+      font-size: 15px;
+      color: #534AB7;
+      margin-bottom: 8px;
+    }
+    .review-text {
+      color: #888;
+      font-size: 13px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .slick-prev, .slick-next { 
+      display: none !important; 
+    }
+
+    .slick-dots { 
+      bottom: -28px; 
+    }
+    .slick-dots li button:before { 
+      color: #fff; 
+      font-size: 9px; 
+      opacity: 0.4; 
+    }
+    .slick-dots li.slick-active button:before { 
+      color: black; 
+      opacity: 1; 
+    }
+
+.faq-section h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #7B3A4E 0%, #EE135A 100%);
+    background-clip: text;
+    color: transparent;
+}
+.faq-section p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.wrapper {
+  max-width: 970px;
+  width: 100%;
+}
+.container {
+  max-width: 970px;
+  width: 100%;
+  color: black;
+  background: #F3F3F3;
+  border-radius: 16px;
+  margin: 15px 0;
+}
+
+.question {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 20px 80px 20px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.question h6,
+.answer h6 {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.question::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #f01462;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.question.active::after {
+  content: "−";
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  position: relative;
+}
+
+.minus-icon {
+  display: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.answercont.active .minus-icon {
+  display: block;
+  color: #40DDB6;
+}
+
+.answer {
+  padding: 0px 10px 20px 20px;
+  line-height: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+.answer span {
+   font-size: 22px;
+   font-weight: 600;
+}
+.footer-section {
+    width: 100%;
+    background: linear-gradient(113.96deg, #7B3A4E 13.54%, #EE135A 100%);
+}
+.footer-data {
+    max-width: 534px;
+    color: white;
+}
+.footer-data-heading h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.text {
+    font-size: 20px;
+}
+.footer-btn button {
+    max-width: 480px;
+    padding: 15px 60px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #F7AF45 0%, #F29D1C 100%);
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+.footer-absolute-img {
+    right: 30%;
+    bottom: 10%;
+}
+.footer-icons {
+    right: 32%;
+    bottom: 53%;
+}
+.footer-absolute-img img {
+    max-width: 348px;
+}
+@media only screen and (max-width: 767px) {
+    .anoncement-bar a {
+        font-size: 13px;
+    }
+    .step {
+        margin-bottom: 40px;
+    }
+    .before-btn button {
+        padding: 10px 18px;
+    }
+    .chart-section {
+        padding: 15px;
+    }
+    .review-section {
+        position: relative;
+    }
+    .review-section .prev-arrow {
+        position: absolute;
+        bottom: 14%;
+        left: 10%;
+        z-index: 3;
+    }
+
+    .review-section .next-arrow {
+        position: absolute;
+        right: 10%;
+        bottom: 14%;
+    }
+    .footer-section {
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .footer-data-heading h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .footer-section .text {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer-text {
+        padding: 20px;
+        color: #fff;
+    }
+    .footer-btn button {
+       padding: 15px;
+       font-size: 18px;  
+    }
+    .footer-btn p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .footer-img img{
+        max-width: 300px;
+    }
+    .footer-absolute-img img {
+        max-width: 168px;
+    }
+    .footer-icons {
+        flex-direction: column;
+    }
+    .footer-icons img {
+        max-width: 60px;
+    }
+    .footer-absolute-img {
+        left: 5%;
+        bottom: 33%;
+    }
+    .footer-icons {
+      left: 14%;
+      top: 27%;
+    }
+    .footer-data {
+        padding: 10px;
+    }
+    .copy-right {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .stars img {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .hero-section-data {
+        text-align: center;
+    }
+    .anoncement-bar a {
+        font-size: 12px;
+    }
+    .customer-name {
+        flex-direction: column;
+    }
+    .customer-name p {
+        margin-bottom: 0;
+    }
+    .hero-data-heading h1 {
+        font-size: 30px;
+    }
+    .hero-data-text {
+        align-items: center;
+    }
+    .hero-data-text .text {
+        font-size: 16px;
+        max-width: 320px;
+        font-weight: 600;
+    }
+    .hero-data {
+        text-align: center;
+    }
+    .rating{
+        align-items: center;
+    }
+    .rating p{
+        font-size: 12px;
+        margin-bottom: 0;
+        font-weight: 40;
+    }
+    .her-data-heading p {
+        font-size: 16px;
+    }
+    .slide {
+        align-items: center;
+    }
+    .order-box {
+        padding: 10px;
+    }
+    .order-logo {
+        max-width: 60px;
+        height: 60px;
+        left: -2%;
+        font-size: 9px;
+    }
+    .order-box-top h1 {
+        font-size: 16px;
+    }
+    .order-button button {
+        font-size: 20px;
+    }
+    .point .icon {
+        width: 22px;
+        height: 22px;
+    }
+    .point p {
+        font-size: 14px;
+    }
+    .hero-data-icons {
+        margin: auto;
+        gap: 10px;
+    }
+    .steps-heading h1 {
+        font-size: 28px;
+    }
+    .steps-heading p {
+        font-size: 16px;
+    }
+    .steps {
+        padding: 15px;
+    }
+    .chart-section {
+        padding: 15px;
+    }
+    .chart-heading h1 {
+        font-size: 28px;
+    }
+    .chart-heading p {
+        font-size: 16px;
+    }
+    .chart-option div {
+        font-size: 14px;
+    }
+    .chart-btn button {
+       padding: 15px;
+       font-size: 18px;
+    }
+    .chart-btn p {
+        font-size: 12px;
+    }
+    .review-data p {
+        font-size: 14px;
+    }
+    .steps-heading {
+        max-width: 320px;
+        margin: auto;
+    }
+    .step {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .benifits {
+        margin: auto;
+    }
+    .benifit-heading h1 {
+        font-size: 28px;
+    }
+    .benifit-heading p {
+        font-size: 17px;
+    }
+    .be-box {
+        margin-bottom: 30px;
+    }
+
+    .product-data div h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .product-data .pro-heading p  {
+        font-size: 16px;
+        text-align: center;
+    }
+    .product-btn button {
+        padding: 15px;
+        font-size: 18px;
+    }
+    .product-img {
+        max-width: 250px;
+        margin-left: 30px;
+    }
+    .product-img-2 {
+        max-width: 176px;
+        left: -13%;
+    }
+    .image-center-logo {
+        left: 27%;
+        top: 30%;
+    }
+    .what-data-heading h1 {
+        max-width: 320px;
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .what-data-heading p {
+        font-size: 16px;
+    }
+    .what-data-para {
+        font-size: 14px;
+        text-align: center;
+    }
+    .skin-heading h1  {
+        font-size: 28px;
+    }
+    .skin-heading p {
+        font-size: 16px;
+    }
+    .skin-discription p {
+        font-size: 14px;
+    }
+    .skin-tip p {
+        font-size: 14px;
+    }
+    .skin-tip img {
+        width: 60px;
+        margin-left: 0;
+    }
+    .review-section .review-section-heading h1 {
+        font-size: 28px;
+        max-width: 320px;
+    }
+    .question h6 {
+        font-size: 16px;
+    }
+    .answer {
+        font-size: 14px;
+    }
+    .faq-section h1 {
+        font-size: 28px;
+        max-width: 320px;
+    }
+    .faq-section p {
+        font-size: 16px;
+        max-width: 320px;
+    }
+}
